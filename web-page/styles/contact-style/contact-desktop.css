@@ -1,0 +1,603 @@
+@media screen and (min-width: 1245px) {
+  body {
+    background-color: #101010;
+    padding-top: 80px;
+    /* padding-right: 48px; */
+    /* padding-left: 48px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .header-div {
+    display: flex;
+    align-self: center;
+  }
+  header {
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: 6vw auto auto;
+    width: 84vw;
+    padding-left: 48px;
+    margin-left: -10px;
+    border-radius: 128px;
+    margin-bottom: 40px;
+  }
+  .over-lay {
+    display: grid;
+    justify-content: right;
+    justify-self: flex-end;
+    align-content: center;
+    margin-right: 2.5vw;
+    grid-template-columns: auto auto auto auto;    
+  }
+  header img {
+    width: 40px;
+    margin-right: 15px;
+    align-self: center;
+  }
+  header .menu {
+    display: none;
+  }
+  header .cancel {
+    display: none;
+  }
+  .hidden {
+    display: none;
+  }
+  header h2 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 41px;
+    margin-right: 15vw;
+    margin-left: -25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    align-self: center;
+  }
+  header a:first-of-type {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    align-self: center;
+  }
+  .above-hover {
+    display: grid;
+    justify-content: end;
+  }
+  .faq-hoverg {
+    display: grid;
+    width: 45vw;
+    grid-template-columns: auto auto auto;
+  }
+ .faq-hover:nth-of-type(1) {
+    width: 277px;
+    height: 236px;
+    border-radius: 24px;
+    background-image: linear-gradient(#252525 100%, #231D1D 100%);
+    position: relative;
+    top: -85px;
+    padding-top: 51px;
+    padding-left: 24px;
+    padding-right: 24px;
+    z-index: 1;
+    margin-bottom: -287px;
+    display: none;
+    grid-column: 1/2;    
+  }
+ .faq-hover:nth-of-type(1) p{
+    color: #E1E1E1;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  }
+  .faq-hover:nth-of-type(2) {
+    width: 277px;
+    height: 218px;
+    border-radius: 24px;
+    background-image: linear-gradient(#252525 100%, #231D1D 100%);
+    position: relative;
+    top: -75px;
+    padding-top: 51px;
+    padding-left: 24px;
+    padding-right: 24px;
+    z-index: 1;
+    margin-bottom: -269px;
+    display: none;
+    grid-column: 2/3;
+  }
+ .faq-hover:nth-of-type(2) p{
+    color: #E1E1E1;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  }
+  .faq-hover:nth-of-type(3) {
+    width: 277px;
+    height: 189px;
+    border-radius: 24px;
+    background-image: linear-gradient(#252525 100%, #231D1D 100%);
+    position: relative;
+    top: -75px;
+    padding-top: 51px;
+    padding-left: 24px;
+    padding-right: 24px;
+    z-index: 1;
+    margin-bottom: -240px;
+    display: none;
+    grid-column: 3;
+  }
+ .faq-hover:nth-of-type(3) p{
+    color: #E1E1E1;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  }
+  header a:nth-of-type(2) {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    align-self: center;
+  }
+  header a:nth-of-type(3) {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    align-self: center;
+  }
+  header button {
+    float: right;
+    background-image: linear-gradient(#53C882, #5EC853);
+    border: none;
+    color: #ffffff;
+    width: 15vw;
+    height: 80px;
+    border-radius: 128px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  header button:hover {
+    background-image: linear-gradient(#6EEAA0, #6EEB61);
+  }
+  .parent-contact {
+    display: grid;
+  }
+  .contact-head {
+    display: flex;
+    align-items: flex-start;
+    height: 88px;
+    margin-top: 48px;
+    padding-left: 8.5vw;
+    background-color: #1F1F1F;
+    margin-bottom: 35px;
+  }
+  .contact-head h2 {
+    font-family: "Inter", sans-serif;
+    color: #E1E1E1;
+    font-size: 48px;
+    font-weight: 700;
+    align-self: center;
+  }
+  .contact-cover {
+    display: grid;
+    justify-content: center;
+  }
+  .contact-div {
+    background-color: #161616;
+    width: 1029px;
+    height: 560px;
+    display: flex;
+    border-radius: 64px;
+    margin-top: 75px;
+    flex-direction: column;
+    padding: 84px 100px 84px 100px;
+  }
+  .contact-div .mail {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 70px;
+    gap: 480px;
+    margin-bottom: 150px;
+  }
+  .contact-div .mail .left-div {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+  }
+  .contact-div .mail .left-div .logo img {
+    width: 37px;
+    height: 29px;
+  }
+  .contact-div .mail .left-div .text {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    top: -25px;
+    margin-left: 25px;
+  }
+  .contact-div .mail .left-div .text p {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #8F8F8F;
+  }
+  .contact-div .mail .left-div .text a {
+    color: #E1E1E1;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    margin-top: -10px;
+  }
+  .contact-div .mail .left-div .text .discord-link {
+    color: #E1E1E1;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    margin-top: -10px;
+    width: 262px;
+  }
+  .contact-div .mail .right-div p {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #8F8F8F;
+    width: 350px;
+    margin-top: 50px;
+  }
+  .contact-div .mail .right-div .meme {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #8F8F8F;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 35px;
+  }
+  .contact-div .mail .right-div .discord-text {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #8F8F8F;
+    width: 320px;
+    text-align: right;
+    margin-top: 30px;
+    margin-left: -105px;
+  }
+  body .suggestion-pop-up {
+    width: 744px;
+    height: 680px;
+    background-color: #101010;
+    display: none;
+    flex-direction: column;
+    border: 1px solid #1F1F1F;
+    border-radius: 24px;
+    align-items: center;
+    padding-top: 40px;
+    z-index: 1;
+    align-self: center;
+    position: relative;
+    top: -1100px;
+    left: 50px;
+  }
+  body .suggestion-pop-up img {
+    width: 43px;
+    height: 49px;
+    align-self: flex-end;
+    margin-right: 30px;
+  }
+  body .suggestion-pop-up .subject {
+    display: flex;
+    flex-direction: column;
+  }
+  body .suggestion-pop-up .subject p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #8F8F8F;
+  }
+  body .suggestion-pop-up .subject .subject-text {
+    border: none;
+    background-color: #1F1F1F;
+    width: 626px;
+    height: 52px;
+    border-radius: 9px;
+    padding-left: 10px;
+    color: #ffffff;
+  }
+  body .suggestion-pop-up .subject .subject-text:focus {
+    outline: none;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;    
+  }
+  body .suggestion-pop-up .mail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  body .suggestion-pop-up .mail p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #8F8F8F;
+  }
+  body .suggestion-pop-up .mail .subject-mail {
+    border: none;
+    background-color: #1F1F1F;
+    width: 626px;
+    height: 52px;
+    border-radius: 9px;
+    padding-left: 10px;
+    color: #ffffff;
+  }
+  body .suggestion-pop-up .mail .validation-message {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    display: none;
+    padding-top: 12px;
+  }
+  body .suggestion-pop-up .mail .subject-mail:focus {
+    outline: none;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;    
+  }
+  body .suggestion-pop-up .message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  body .suggestion-pop-up .message p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #8F8F8F;
+  }
+  body .suggestion-pop-up .message .subject-message {
+    background-color: #101010;
+    width: 626px;
+    border: 2px solid #1F1F1F;
+    border-radius: 9px;
+    padding-left: 10px;
+    padding-bottom: 110px;
+    padding-top: 25px;
+    color: #ffffff;
+  }
+  body .suggestion-pop-up .message .subject-message:focus {
+    outline: none;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;    
+  }
+  body .suggestion-pop-up .btn-submit {
+    width: 127px;
+    height: 80px;
+    border-radius: 128px;
+    text-align: center;
+    align-self: end;
+    color: #8F8F8F;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    background-color: #1F1F1F;
+    font-family: "Inter", sans-serif;   
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 45px;
+  }
+  body .suggestion-pop-up .btn-submit:focus {
+    outline: none;
+    background-image: linear-gradient(#53C882 100%, #5EC853 100%);
+    color: #ffffff;
+  }
+  body .suggestion-pop-up .btn-submit:hover {
+    background-image: linear-gradient(#6EEAA0, #6EEB61);
+    color: #ffffff;
+  }
+  .oga-card {
+    display: grid;
+    justify-content: center;
+  }
+  .oga-card .early-card-mobile {
+    display: none;
+  }
+  .early-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 128px;
+    background-image: linear-gradient(#252525, #231D1D);
+    width: 1207px;
+    height: 576.47px;
+    border-radius: 50px;
+  }
+  .early-card .early-card-img {
+    width: 460px;
+    height: 576.47px;
+    background-image: url(../get\ early\ access\ image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .early-card .early-card-img .for-mobile {
+    display: none;
+  }
+  .early-card .early-card-text {
+    display: grid;
+    width: 530px;
+    margin-left: -20px;
+  }
+  .early-card .early-card-text p {
+    color: #E1E1E1;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: 20px;
+  }
+  .early-card .early-card-text input[type=email] {
+    border: none;
+    border-radius: 25px;
+    background-color: #161616;
+    color: #E1E1E1;
+    top: 32px;
+    width: 400px;
+    height: 64px;
+    padding-left: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    width: 440px;
+    height: 80px;
+    border-radius: 64px;
+    padding-left: 36px;
+    margin-left: 69px;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+    left: -50px;
+  }
+  .early-card .early-card-text button[type=submit] {
+    background-image: linear-gradient(#53C882, #5EC853);
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    top: -48px;
+    width: 416px;
+    height: 64px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    position: relative;
+    right: 80px;
+    color: #E1E1E1;
+    width: 480px;
+    height: 80px;
+    border-radius: 64px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: 50px;
+    left: 20px;
+  }
+  .early-card .early-card-text button[type=submit]:hover {
+    background-image: linear-gradient(#6EEAA0, #6EEB61);
+  }
+  body .oga-card .early-card .early-card-text .validation-message {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    display: none;
+    margin-left: 32px;
+    margin-bottom: 7px;
+  }
+  body .oga-card .early-card .early-card-text .validation-message {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    display: none;
+    margin-left: 32px;
+    margin-bottom: 7px;
+  }
+  body .oga-card .early-card .action-message {
+    width: 580px;
+    height: 189px;
+    border-radius: 64px;
+    background-color: #161616;
+    z-index: 2;
+    position: relative;
+    top: -350px;
+    left: 250px;
+    /* margin-bottom: -50px; */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .oga-card .early-card .action-message h4 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+    /* align-self: center; */
+  }
+  body .oga-card .early-card .early-card-text input[type=email]:focus {
+    outline: none;
+  }
+  body .oga-card .early-card .early-card-text button[type=submit]:focus {
+    outline: none;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    justify-content: center;
+  }
+  footer .footer-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 237px;
+    width: 90vw;
+  }
+  footer .footer-div .footer-img img {
+    width: 59.19px;
+  }
+  footer .footer-div .company {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+  }
+  footer .footer-div .company h4 {
+    color: #E1E1E1;
+    font-family: "Inter", sans-serif;
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  footer .footer-div .company a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #8F8F8F;
+    font-size: 1.3vw;
+    margin-bottom: 15px;
+  }
+  footer .footer-div .support, footer .footer-div .community {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+  }
+  footer .footer-div .support h4, footer .footer-div .community h4 {
+    color: #E1E1E1;
+    font-family: "Inter", sans-serif;
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  footer .footer-div .support a, footer .footer-div .community a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #8F8F8F;
+    font-size: 1.3vw;
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=contact2.css.map */
