@@ -19,7 +19,7 @@ function sendEmail() {
       Username : "opensourcedao2@gmail.com",
       Password : "68E3C2D217C9F637FCB080268DF817B6015F",
       To : 'opensourcedao2@gmail.com',
-      From : "subjectMail.value",
+      From : subjectMail.value,
       Subject : "subjectText.value",
       Body : "subjectMessage.textContent"
   }).then(
