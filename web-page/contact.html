@@ -119,20 +119,22 @@
 
     <!-- suggestion-pop-up -->
     <div class="suggestion-pop-up">
+        <form action="https://formsubmit.co/opensourcedao2@gmail.com" method="POST">
         <img src="images/cancel.png" class="close-pop">
         <div class="subject">
             <p>Subject</p>
-            <input type="text" class="subject-text" required>
+            <input type="text" name="text" class="subject-text" required>
         </div>
         <div class="mail">
             <p>Email</p>
-            <input type="email" class="subject-mail" required>
+            <input type="email" name="email" class="subject-mail" required>
         </div>
         <div class="message">
             <p>Message</p>
-            <textarea class="subject-message" required></textarea>
+            <textarea class="subject-message" name="message" required></textarea>
         </div>
-        <button type="submit" class="btn-submit" onclick="sendEmail()">Submit</button>
+        <button type="submit" class="btn-submit">Submit</button>
+    </form>
     </div>
 
       <!-- early acces card  -->
