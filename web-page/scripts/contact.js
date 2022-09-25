@@ -12,35 +12,28 @@ const suggestionPopUp = document.querySelector('.suggestion-pop-up') // suggesti
 const closePop = document.querySelector('.close-pop') // cancel image
 console.log(inputField[2].textContent)
 const color1 = "#5EC853"
+const form = document.querySelector('.form-list')
 
-function sendEmail() {
-  Email.send({
-      Host : "smtp.elasticemail.com",
-      Username : "opensourcedao2@gmail.com",
-      Password : "68E3C2D217C9F637FCB080268DF817B6015F",
-      To : 'opensourcedao2@gmail.com',
-      From : subjectMail.value,
-      Subject : "subjectText.value",
-      Body : "subjectMessage.textContent"
-  }).then(
-    message => alert(message)
-  );
-  }
+
 // display pop up
 mail.addEventListener('click', function() {
- if(suggestionPopUp.style.display === 'none') {
-    suggestionPopUp.style.display = 'flex'
- } else {
-    suggestionPopUp.style.display = 'none'
- }
+  form.style.display = "grid"
+  suggestionPopUp.style.display = 'flex'
+//  if(suggestionPopUp.style.display === 'none') {
+//     suggestionPopUp.style.display = 'flex'
+//  } else {
+//     suggestionPopUp.style.display = 'none'
+//  }
 })
 
 // close pop up
 closePop.addEventListener('click', function(){
-    if(suggestionPopUp.style.display === 'flex') {
+    if(suggestionPopUp.style.display === 'flex' &&  form.style.display === "grid") {
         suggestionPopUp.style.display = 'none'
+        form.style.display = "none"
      } else {
         suggestionPopUp.style.display = 'none'
+        form.style.display = "none"
      }
 })
 
@@ -91,9 +84,9 @@ const actionMessageC = document.querySelectorAll('.action-message')
 const urlC = 'https://hookb.in/BY1BQJmoLRSknxZk3ao3';
   const fromElC = document.querySelectorAll('form');
   const responseeC = document.querySelectorAll('.mail-list')  
-    fromElC[0].addEventListener('submit', async(e)=> {
+    fromElC[1].addEventListener('submit', async(e)=> {
       e.preventDefault()
-    const formData = new FormData(fromElC[0]);
+    const formData = new FormData(fromElC[1]);
     const fromDataSerialized = Object.fromEntries(formData);
     const jsonObject = responseeC[0].value;
     try {

@@ -178,7 +178,17 @@
     margin-left: 10vw;
     /* width: 50vw; */
   }
-  
+  .form-list {
+    /* background-color: red; */
+    width: 100vw;
+    height: 500px;
+    position: relative;
+    top: -80px;
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    margin-bottom: -350px;
+  }
   body .suggestion-pop-up {
     width: 80vw;
     height: 595px;
@@ -191,6 +201,7 @@
     padding-top: 40px;
     z-index: 1;
     align-self: center;
+    justify-self: center;
     position: relative;
     top: -600px;
     margin-bottom: -575px;
